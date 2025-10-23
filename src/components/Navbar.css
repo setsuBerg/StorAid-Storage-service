@@ -1,0 +1,101 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.topbar {
+    color: var(--color-primary);
+    background: var(--color-secondary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.topbar .contactitems,
+.topbar .toplogo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.topbar .contactitems .icon-telephone{
+    margin-left: 50px;
+}
+.topbar .contactitems .telephonennumber {
+    margin-right: 20px;
+}
+.topbar .toplogo .youtube {
+    margin-right: 50px;
+}
+.topbar .toplogo {
+    gap: 18px;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    border-bottom: 0px solid;
+    gap: 1rem;
+    padding: 10px 50px;
+    height: 7rem;
+}
+.navbar .logo{
+    justify-self: start;
+    margin: 1rem;
+}
+.navbar nav {
+    justify-self: center;
+    display: flex;
+    gap: 1rem;
+    color: var(--color-secondary);
+    font-size: 18px;
+}
+.navbar nav {
+    gap: 1.8rem;
+}
+.navbar .yellow {
+    color: var(--color-accent);
+}
+.navbar .btn {
+    min-width: auto;
+    height: 45px;
+    color: var(--color-secondary);
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: var(--color-accent);
+    cursor: pointer;
+    transition: border-color 0.5s;
+    margin-right: 2rem;
+    
+}
+.navbar .btn:hover {
+    background: var(--color-secondary);
+    color: var(--color-primary);
+}
+
+
+
+/* @media (min-width >= 390px) {
+    max-width: 340px;
+    height: 47px; 
+}
+@media (min-width >= 7680px) {
+    max-width: 720px;
+    height: 47px; 
+}
+@media (min-width >= 1280px) {
+    max-width: 1200px;
+    height: 47px; 
+}
+@media (min-width >= 1920px) {
+    max-width: 1900px;
+    height: 47px; 
+} */

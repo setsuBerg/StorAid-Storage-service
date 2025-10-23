@@ -3,12 +3,35 @@
 @tailwind utilities;
 
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+  --font-family: "Inter", sans-serif;
+  --font-secondary: "Urbanist", sans-serif;
 
+  --color-primary: #fff;
+  --color-secondary: #12372A;
+  --color-accent: #F1C30C;
+  --color-light: #ECECEC;
+  --color-light2: #FAF8EC;
+  --color-light3: #F1FFEA;
 
+}
 
-
-
+html, body, #root {
+  height: 100%;
+}
+body{
+  margin: 0;
+  font: var(--font-family);
+  color: #fff;
+  margin: 0;
+}
+.container{
+    min-width: 100%;
+    padding: 0;
+}
 
 
 
