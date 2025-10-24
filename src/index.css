@@ -1,10 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
   --font-family: "Inter", sans-serif;
@@ -28,11 +27,34 @@ body{
   color: #fff;
   margin: 0;
 }
-.container{
-    min-width: 100%;
-    padding: 0;
+
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
+.container {
+    min-width: 100%;
+    margin: 0 auto;
+    padding-inline: 10px;
+
+    @media (width > 768px) {
+      max-width: 744px;
+    }
+    @media (width > 992px) {
+      max-width: 960px;
+    }
+    @media (width > 1200px) {
+      max-width: 1140px;
+    }
+    @media (width > 1400px) {
+      max-width: 1320px;
+    }
+    @media (width > 1920px) {
+      max-width: 1900px;
+    }
+}
 
 
 /* :root {
