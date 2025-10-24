@@ -1,0 +1,118 @@
+.hero {
+    background: #2c4038;
+    background: linear-gradient(180deg,rgba(44, 64, 56, 1) 0%, rgba(46, 79, 67, 1) 20%, rgba(57, 92, 79, 1) 100%);
+
+    width: 100%;
+    height: 105svh;
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2.7rem;
+        height: 47rem;
+    }
+
+    .main-text{
+        width: clamp(320px, 40vw, 745px);
+        text-align: left;
+    }
+
+    .hero-sentence {
+        font-size: 1.1rem;
+    }
+    .main-text .h3 {
+        font-size: 1.4rem;
+        font-family: var(--font-secondary);
+        font-weight: 500;
+
+    }
+    .main-text h1 {
+        font-size: 5rem;
+        font-weight: 700;
+        font-family: var(--font-family);
+    }
+
+    .title .second-line {
+        display: block;
+    }
+
+    .btn {
+        margin-top: 2rem;
+        padding: .7rem 1.8rem;
+    }
+    .hero-img{
+        width: clamp(240px, 40vw, 500px);
+        padding: 5rem 1rem 0 2rem;
+        display: flex;
+        align-items: flex-end;
+        height: 102vh;
+    }
+
+    .container {
+        min-width: 100%;
+        margin: 0 auto;
+        padding-inline: 10px;
+
+        @media (width > 768px) {
+        max-width: 744px;
+        }
+        @media (width > 992px) {
+        max-width: 960px;
+        }
+        @media (width > 1200px) {
+        max-width: 1140px;
+        }
+        @media (width > 1400px) {
+        max-width: 1320px;
+        }
+        @media (width > 1920px) {
+        max-width: 1900px;
+        }
+    }
+}
+
+
+
+
+/* .hero{
+    color: var(--color-heading-text);
+    padding: 120px 0px;
+    background: #FFFFFF;
+    background: linear-gradient(178deg,rgba(255, 255, 255, 0.05) 0%, rgba(218, 70, 239, 0.05) 42%, rgba(99, 102, 241, 0.07) 83%);
+    
+    @media (width >= 768px) {
+        flex-direction: row;
+    }
+}
+.hero .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.hero h1 span{
+    display: block;
+    font-size: 56px;
+    font-weight: 800;
+}
+.hero h1{
+    margin-bottom: 10px;
+}
+.hero .h1-first{
+    display: block;
+    line-height: 1.1;
+}
+.hero .hero-left{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    max-width: 500px;
+}
+.hero .hero-left p{
+    font-size: 18px;
+    color: var(--color-body-text);
+}
+.hero .hero-left .next-p{
+    margin-bottom: 30px;
+} */
