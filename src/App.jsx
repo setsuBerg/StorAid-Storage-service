@@ -12,7 +12,7 @@ function App() {
   
   return (
     <BrowserRouter>
-     <div className="container">
+     <div className="page-container">
       <Navbar />
       <main>
 
