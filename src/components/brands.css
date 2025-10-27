@@ -1,0 +1,17 @@
+.brands {
+    background: var(--color-light2);
+    width: 100%;
+
+    .container {
+        max-width: 1350px;
+        min-height: auto;
+
+        .brand-logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 3.5rem;
+            flex-wrap: wrap;
+        }
+    }
+}
