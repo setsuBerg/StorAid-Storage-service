@@ -74,7 +74,14 @@
     background: var(--color-secondary);
     color: var(--color-primary);
 }
-
+.navbar .nav-link[aria-current="page"]{
+    color: var(--color-accent);
+    font-weight: 500;
+}
+.navbar .nav-link:hover {
+    color: var(--color-accent);
+    font-weight: 500;
+}
 
 
 /* @media (min-width >= 390px) {
