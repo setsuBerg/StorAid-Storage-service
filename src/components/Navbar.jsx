@@ -39,7 +39,7 @@ const Navbar = () => {
                         <img src={LogoType} />
                     </Link>
                     <nav>
-                        <NavLink className="nav-link yellow" to="/">Home</NavLink>
+                        <NavLink className="nav-link" to="/">Home</NavLink>
                         <NavLink className="nav-link" to="/aboutus">About Us</NavLink>
                         <NavLink className="nav-link" to="/services">Services</NavLink>
                         <NavLink className="nav-link" to="/contactus">Contact Us</NavLink>
