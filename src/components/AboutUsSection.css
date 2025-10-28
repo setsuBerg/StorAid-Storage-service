@@ -72,9 +72,10 @@
 
         .text-aboutus {
             color: var(--color-secondary);
+            font-family: var(--font-secondary);
 
             .h3 {
-                font-size: 2rem;
+                font-size: 1.5rem;
                 color: var(--color-accent);
                 font-family: var(--color-secondary);
             }
@@ -96,6 +97,7 @@
             }
             .boxes-p {
                 padding: .6rem 1.4rem;
+                
             }
         }
 
