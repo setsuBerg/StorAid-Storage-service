@@ -1,0 +1,12 @@
+.star-rating {
+    position: relative;
+    display: flex;
+    color: var(--color-secondary);
+    z-index: 9999;
+
+    .fa-star.empty {
+        color: var(--color-primary);
+        border: 1px solid var(--color-secondary);
+    }
+    
+}
