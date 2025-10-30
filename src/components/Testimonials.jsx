@@ -15,7 +15,6 @@ const Testimonials = () => {
   const getTestimonials = async () => {
     const res = await fetch(`${baseUrl}/api/testimonials`);
     const data = await res.json();
-    console.log('From API API API', data)
     setTestimonials(data);
   } 
   useEffect(() => {
@@ -50,12 +49,14 @@ const Testimonials = () => {
               {/* -----     till /components/StarRating.jsx     ------- */}
 
               <StarRating starRating={item.rating} />
-              <p>{item.comment}</p>
+              <p className='comment'>{item.comment}</p>
 
               <div className='person'>
                 <img className='profile' src={item.avatarUrl} alt={item.name} />
+                <div className='person-info'>
                 <h6 className='name'>{item.name}</h6>
                 <p className='role'>{item.companyName}</p>
+                </div>
                 <Link className='testimonial-icon' to="/"><img src={TestimonialIcon} /></Link>
               </div>
             </div>

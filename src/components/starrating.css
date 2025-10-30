@@ -3,6 +3,8 @@
     display: flex;
     color: var(--color-secondary);
     z-index: 9999;
+    gap: .2rem;
+    
 
     .fa-star.empty {
         color: var(--color-primary);
