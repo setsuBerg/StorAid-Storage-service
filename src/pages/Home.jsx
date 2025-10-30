@@ -5,6 +5,7 @@ import AboutUsSection from '../components/AboutUsSection'
 import Brands from '../components/Brands'
 import OurServices from '../components/OurServices'
 import Testimonials from '../components/Testimonials'
+import WhyChooseUs from '../components/WhyChooseUs'
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
       <Brands />
       <OurServices />
       <Testimonials />
+      <WhyChooseUs />
 
       {/* 
       <WhyUs />
