@@ -15,7 +15,6 @@ function App() {
      <div className="page-container">
       <Navbar />
       <main>
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/aboutus" element={<AboutUs />} />

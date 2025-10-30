@@ -57,13 +57,18 @@
                 background: var(--color-primary);
                 border: 2px solid var(--color-secondary);
                 border-radius: 1rem;
-                padding: 1rem 1.5rem 1rem 1rem;
+                padding: 2.5rem 2.5rem 1.8rem 2.5rem;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
                 min-height: 300px;
                 flex: 0 0 440px;
                 position: relative;
+                text-align: left;
+
+                .comment {
+                    margin-top: 1.2rem;
+                }
 
                 .person {
                     margin-top: auto;
@@ -74,20 +79,23 @@
                     .profile {
                         border-radius: 3rem;
                     }
-                    .name {
+                    .person-info {
+
+                        .name {
                         font-weight: 600;
                         font-size: 1.4rem;
 
-                    }
-                    .role {
-                        
+                        }
+                        .role {
+                            text-align: start;
+                        }
+
                     }
                 }
                 .testimonial-icon {
                     position: absolute;
                     bottom: 2rem;
                     right: 1.5rem;
-                    
                 }
                 
             }
