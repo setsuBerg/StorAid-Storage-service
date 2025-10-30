@@ -6,6 +6,7 @@ import Brands from '../components/Brands'
 import OurServices from '../components/OurServices'
 import Testimonials from '../components/Testimonials'
 import WhyChooseUs from '../components/WhyChooseUs'
+import PricingPlan from '../components/PricingPlan'
 
 
 const Home = () => {
@@ -17,12 +18,7 @@ const Home = () => {
       <OurServices />
       <Testimonials />
       <WhyChooseUs />
-
-      {/* 
-      <WhyUs />
-      <SuccessStory />
-      <RecentProjects />
-      <ImageSlider /> */}
+      <PricingPlan />
     </>
   )
 }
