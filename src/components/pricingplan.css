@@ -1,0 +1,117 @@
+.pricingplan {
+    color: var(--color-secondary);
+    min-width: 1370px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.pricing-header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 18rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.pricing-title {
+    color: var(--color-accent);
+    font-family: var(--font-secondary);
+    font-size: 1.7rem;
+
+}
+
+.pricing-headline {
+    font-size: 3rem;
+    font-family: var(--font-secondary);
+}
+
+.pricing-cards {
+    display: flex;
+    gap: 1.8rem;
+    justify-content: center;
+}
+
+.pricing-card {
+    border: 3px solid var(--color-light);
+    border-radius: .6rem;
+    background-color: var(--color-light3);
+    padding: 3rem 2.5rem;
+    &:hover {
+        background-color: var(--color-secondary);
+        color: var(--color-primary);
+    }
+}
+
+.pricing-upside {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: .8rem;
+}
+
+.card-upside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dollar-icon {
+    margin: 0 1rem 1rem 0;
+    padding: 0 .2rem 2rem;
+}
+.price {
+    font-size: 3rem;
+    color: var(--color-accent);
+    font-weight: 700;
+    font-family: var(--font-secondary);
+    margin: .3rem 1rem 1rem 0;
+    padding-left: .5rem;
+}
+.payments {
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 0 0 0 .5rem;
+}
+
+.card-item {
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.card-item .line{
+    outline: 1px solid var(--color-secondary);
+}
+.card-item .line:hover{
+    outline-color: var(--color-primary);  
+}
+.card-text {
+    font-family: var(--font-family);
+    padding-bottom: 1rem;
+}
+.pricing-downside {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+.pricing-downside ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+

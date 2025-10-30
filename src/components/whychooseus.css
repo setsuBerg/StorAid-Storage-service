@@ -1,5 +1,7 @@
 .whychooseus {
     color: var(--color-secondary);
+    background-color: var(--color-light2);
+    padding-bottom: 3rem;
 
     .container {
         display: flex;
