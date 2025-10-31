@@ -41,6 +41,8 @@
     border-radius: .6rem;
     background-color: var(--color-light3);
     padding: 3rem 2.5rem;
+    margin-bottom: 5rem;
+
     &:hover {
         background-color: var(--color-secondary);
         color: var(--color-primary);
@@ -144,6 +146,6 @@
 
     &:hover {
         color: var(--color-secondary);
-        background: var(--color-accent);
+        background: var(--color-primary);
     }
 }
