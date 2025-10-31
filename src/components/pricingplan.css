@@ -94,10 +94,11 @@
     text-align: center;
     padding-bottom: 2rem;
 }
-.card-item .line{
-    outline: 1px solid var(--color-secondary);
+.pricing-card .line{
+    display: block;
+    outline: 1.5px solid var(--color-secondary);
 }
-.card-item .line:hover{
+.pricing-card:hover .line{
     outline-color: var(--color-primary);  
 }
 .card-text {
@@ -105,13 +106,44 @@
     padding-bottom: 1rem;
 }
 .pricing-downside {
-    display: flex;
-    justify-content: start;
-    align-items: flex-start;
+    padding: auto;
 }
-.pricing-downside ul {
+.card-downside {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-}
 
+}
+.check-icon{
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    margin: .1rem;
+    background: url('../assets/images/check-green.svg') no-repeat center / contain;
+}
+.pricing-card:hover .check-icon{
+    background: url('../assets/images/check-yellow.svg') no-repeat center / contain;
+}
+.pricing-downside .list {
+    display: flex;
+    flex-direction: row;
+    gap: .8rem;
+    padding: .2rem;
+        
+}
+.pricing-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+
+}
+.btn {
+    padding: .7rem 1.8rem;
+    margin-bottom: -2rem;
+
+    &:hover {
+        color: var(--color-secondary);
+        background: var(--color-accent);
+    }
+}

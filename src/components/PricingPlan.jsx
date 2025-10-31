@@ -1,6 +1,5 @@
 import React from 'react'
 import DollarIcon from '../assets/images/dollar-icon.svg'
-import CheckIcon from '../assets/images/check-green.svg'
 
 import { Link } from 'react-router-dom' 
 import './pricingplan.css'
@@ -35,11 +34,11 @@ const PricingPlan = () => {
 
                     <div className='pricing-downside'>
                         <ul className='card-downside'>
-                            <li className='list'><Link className='check-icon' to="/"><img src={CheckIcon} /></Link><h6>Nam nec ipsum in dolor</h6></li>
-                            <li className='list'><Link className='check-icon' to="/"><img src={CheckIcon} /></Link><h6>Fusce nec ligula ut arcu</h6></li>
-                            <li className='list'><Link className='check-icon' to="/"><img src={CheckIcon} /></Link><h6>Aliquam pulvinar arcu in</h6></li>
-                            <li className='list'><Link className='check-icon' to="/"><img src={CheckIcon} /></Link><h6>Duis gravida enim porta</h6></li>
-                            <li className='list'><Link className='check-icon' to="/"><img src={CheckIcon} /></Link><h6>Etiam eget libero non ligula</h6></li>
+                             <li className='list'><span className='check-icon'></span><h6>Nam nec ipsum in dolor</h6></li>
+                            <li className='list'><span className='check-icon'></span><h6>Fusce nec ligula ut arcu</h6></li>
+                            <li className='list'><span className='check-icon'></span><h6>Aliquam pulvinar arcu in</h6></li>
+                            <li className='list'><span className='check-icon'></span><h6>Duis gravida enim porta</h6></li>
+                            <li className='list'><span className='check-icon'></span><h6>Etiam eget libero non ligula</h6></li>
                         </ul>
                     </div>
                     <div className='pricing-btn'>
@@ -64,11 +63,11 @@ const PricingPlan = () => {
 
                     <div className='pricing-downside'>
                         <ul className='card-downside'>
-                            <li className='list'><Link className='check-icon' to="/"><img src={CheckIcon} /></Link><h6>Nam nec ipsum in dolor</h6></li>
-                            <li className='list'><Link className='check-icon' to="/"><img src={CheckIcon} /></Link><h6>Fusce nec ligula ut arcu</h6></li>
-                            <li className='list'><Link className='check-icon' to="/"><img src={CheckIcon} /></Link><h6>Aliquam pulvinar arcu in</h6></li>
-                            <li className='list'><Link className='check-icon' to="/"><img src={CheckIcon} /></Link><h6>Duis gravida enim porta</h6></li>
-                            <li className='list'><Link className='check-icon' to="/"><img src={CheckIcon} /></Link><h6>Etiam eget libero non ligula</h6></li>
+                            <li className='list'><span className='check-icon' to="/"></span><h6>Aliquam pulvinar arcu in</h6></li>
+                            <li className='list'><span className='check-icon' to="/"></span><h6>Fusce nec ligula ut arcu</h6></li>
+                            <li className='list'><span className='check-icon' to="/"></span><h6>Duis gravida enim porta</h6></li>
+                            <li className='list'><span className='check-icon' to="/"></span><h6>Etiam eget libero non ligula</h6></li>
+                            <li className='list'><span className='check-icon' to="/"></span><h6>Nam nec ipsum in dolor</h6></li>
                         </ul>
                     </div>
                     <div className='pricing-btn'>
@@ -93,11 +92,11 @@ const PricingPlan = () => {
 
                     <div className='pricing-downside'>
                         <ul className='card-downside'>
-                            <li className='list'><Link className='check-icon' to="/"><img src={CheckIcon} /></Link><h6>Nam nec ipsum in dolor</h6></li>
-                            <li className='list'><Link className='check-icon' to="/"><img src={CheckIcon} /></Link><h6>Fusce nec ligula ut arcu</h6></li>
-                            <li className='list'><Link className='check-icon' to="/"><img src={CheckIcon} /></Link><h6>Aliquam pulvinar arcu in</h6></li>
-                            <li className='list'><Link className='check-icon' to="/"><img src={CheckIcon} /></Link><h6>Duis gravida enim porta</h6></li>
-                            <li className='list'><Link className='check-icon' to="/"><img src={CheckIcon} /></Link><h6>Etiam eget libero non ligula</h6></li>
+                             <li className='list'><span className='check-icon' to="/"></span><h6>Nam nec ipsum in dolor</h6></li>
+                            <li className='list'><span className='check-icon' to="/"></span><h6>Fusce nec ligula ut arcu</h6></li>
+                            <li className='list'><span className='check-icon' to="/"></span><h6>Aliquam pulvinar arcu in</h6></li>
+                            <li className='list'><span className='check-icon' to="/"></span><h6>Duis gravida enim porta</h6></li>
+                            <li className='list'><span className='check-icon' to="/"></span><h6>Etiam eget libero non ligula</h6></li>
                         </ul>
                     </div>
                     <div className='pricing-btn'>
@@ -122,11 +121,11 @@ const PricingPlan = () => {
 
                     <div className='pricing-downside'>
                         <ul className='card-downside'>
-                            <li className='list'><Link className='check-icon' to="/"><img src={CheckIcon} /></Link><h6>Nam nec ipsum in dolor</h6></li>
-                            <li className='list'><Link className='check-icon' to="/"><img src={CheckIcon} /></Link><h6>Fusce nec ligula ut arcu</h6></li>
-                            <li className='list'><Link className='check-icon' to="/"><img src={CheckIcon} /></Link><h6>Aliquam pulvinar arcu in</h6></li>
-                            <li className='list'><Link className='check-icon' to="/"><img src={CheckIcon} /></Link><h6>Duis gravida enim porta</h6></li>
-                            <li className='list'><Link className='check-icon' to="/"><img src={CheckIcon} /></Link><h6>Etiam eget libero non ligula</h6></li>
+                            <li className='list'><span className='check-icon' to="/"></span><h6>Nam nec ipsum in dolor</h6></li>
+                            <li className='list'><span className='check-icon' to="/"></span><h6>Duis gravida enim porta</h6></li>
+                            <li className='list'><span className='check-icon' to="/"></span><h6>Etiam eget libero non ligula</h6></li>
+                            <li className='list'><span className='check-icon' to="/"></span><h6>Fusce nec ligula ut arcu</h6></li>
+                            <li className='list'><span className='check-icon' to="/"></span><h6>Aliquam pulvinar arcu in</h6></li>
                         </ul>
                     </div>
                     <div className='pricing-btn'>
