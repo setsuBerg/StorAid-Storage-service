@@ -1,0 +1,31 @@
+.looking-for-secure {
+    background-color: var(--color-secondary);
+
+    .container {
+        width: 100%;
+        min-height: 435px;
+
+        .looking-items {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 1rem;
+
+            .looking-headline {
+                font-family: var(--font-secondary);
+                font-weight: 700;
+                font-size: 3.5rem;
+            }
+            .looking-text {
+                font-size: 1.15rem;
+                line-height: 1.5rem;
+            }
+            .btn {
+                padding: 1.1rem 3rem;
+                margin-top: 1rem;
+            }
+        }
+    }
+}

@@ -7,6 +7,7 @@ import OurServices from '../components/OurServices'
 import Testimonials from '../components/Testimonials'
 import WhyChooseUs from '../components/WhyChooseUs'
 import PricingPlan from '../components/PricingPlan'
+import LookingForSecure from '../components/LookingForSecure'
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
       <Testimonials />
       <WhyChooseUs />
       <PricingPlan />
+      <LookingForSecure />
     </>
   )
 }
