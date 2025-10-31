@@ -13,7 +13,7 @@ const Testimonials = () => {
   const [testimonials, setTestimonials] = useState([]);
 
   const getTestimonials = async () => {
-    const res = await fetch(`${baseUrl}/api/testimonials`);
+    const res = await fetch(`${baseUrl}/api/blogs`);
     const data = await res.json();
     setTestimonials(data);
   } 

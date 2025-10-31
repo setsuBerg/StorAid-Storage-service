@@ -8,6 +8,7 @@ import Testimonials from '../components/Testimonials'
 import WhyChooseUs from '../components/WhyChooseUs'
 import PricingPlan from '../components/PricingPlan'
 import LookingForSecure from '../components/LookingForSecure'
+import LatestBlogandNews from '../components/LatestBlogandNews'
 
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
       <WhyChooseUs />
       <PricingPlan />
       <LookingForSecure />
+      <LatestBlogandNews />
     </>
   )
 }
