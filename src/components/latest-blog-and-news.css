@@ -1,0 +1,95 @@
+.latest-blog-and-news {
+    color: var(--color-secondary);
+    margin: 5rem;
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: .5rem;
+
+        .latest-blog-header {
+            text-align: justify;
+
+            .latest-blog-title {
+                color: var(--color-accent);
+                font-size: 1.5rem;
+                font-family: var(--font-secondary);
+                margin-bottom: 1rem;
+            }
+            .latest-blog-items {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 2rem;
+                
+                .headline {
+                    font-size: 3.2rem;
+                    font-family: var(--font-secondary);
+                }
+                .subhead {
+                    font-size: 1rem;
+                    font-family: var(--font-family);
+                    margin: 1.8rem;
+                    line-height: 1.5rem;
+                }
+            }
+        }
+        .latest-items {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            color: var(--color-primary);
+            flex-wrap: wrap;
+            margin-bottom: 5rem;
+
+            .blogs-item {
+                border-radius: .5rem;
+                background-color: var(--color-secondary);
+                padding: 2rem;
+                min-width: 0;
+                flex: 0 0 22%;
+
+                .blog-img {
+                    border-radius: .5rem;
+                }
+                .created {
+                    font-family: var(--font-family);
+                    display: flex;
+                    justify-content: start;
+                    gap: 1rem;
+                    margin-top: 1.5rem;
+
+                    .calendar-icon {
+                        display: block;
+                    }
+                }
+                .title {
+                    font-size: 1.2rem;
+                    text-align: left;
+                    line-height: 1.7rem;
+                    margin-top: 1rem;
+                    margin-bottom: 1rem;
+                }
+                .description {
+                    font-family: var(--font-family);
+                    line-height: 1.5rem;
+
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 3;
+                    line-clamp: 3;
+                    overflow: hidden;
+                    word-break: break-word;
+                }
+                .readmore {
+                    color: var(--color-accent);
+                    font-size: 1.2rem;
+                    line-height: 3rem;
+                    margin-top: 1rem;
+                }
+            }
+        }
+    }
+}
