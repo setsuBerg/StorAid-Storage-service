@@ -1,5 +1,4 @@
 .aboutus-section {
-
     padding-inline: 0;
     padding-block: 1rem;
     margin-left: 11rem;
@@ -21,7 +20,6 @@
         flex: 1;
         width: 100%;
 
-
         .aboutus-img img {
             width: 100%;
             position: relative;
@@ -41,7 +39,6 @@
                 justify-content: space-around;
                 left: 17%;
                 
-
                 .box-text {
                     text-align: center;
 
@@ -89,15 +86,17 @@
             display: flex;
             color: var(--color-secondary);
             gap: 2rem;
+
+            .box:hover {
+                border-color: var(--color-accent);
+            }
             
             .box-h3 {
                 padding: .7rem 1.4rem;
                 font-size: 1.4rem;
-                
             }
             .boxes-p {
                 padding: .6rem 1.4rem;
-                
             }
         }
 
@@ -105,16 +104,16 @@
             display: flex;
             justify-content: space-between;
             align-items: flex-end;
-            gap: 2.6rem;
-            margin-top: 1rem;
+            gap: 2.5rem;
+            margin-top: 2rem;
 
             .btn {
                 min-width: auto;
                 height: 3rem;
                 color: var(--color-secondary);
                 border-radius: 8px;
-                padding: 0.6em 1.5em;
-                font-size: 1em;
+                padding: 0.6rem 1.5rem;
+                font-size: 1rem;
                 background-color: var(--color-accent);
                 cursor: pointer;
                 transition: border-color 0.5s;

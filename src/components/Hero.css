@@ -3,7 +3,7 @@
     background: linear-gradient(180deg,rgba(44, 64, 56, 1) 0%, rgba(46, 79, 67, 1) 20%, rgba(57, 92, 79, 1) 100%);
 
     width: 100%;
-    height: 80svh;
+    height: 72svh;
     
 
     .container {
@@ -34,7 +34,7 @@
     }
 
     .main-text{
-        width: clamp(320px, 40vw, 745px);
+        width: clamp(320px, 40vw, 780px);
         text-align: left;
     }
 
@@ -66,51 +66,6 @@
         padding: 5rem 1rem 0 2rem;
         display: flex;
         align-items: flex-end;
-        height: 78vh;
+        height: 70vh;
     }
 }
-
-
-
-
-/* .hero{
-    color: var(--color-heading-text);
-    padding: 120px 0px;
-    background: #FFFFFF;
-    background: linear-gradient(178deg,rgba(255, 255, 255, 0.05) 0%, rgba(218, 70, 239, 0.05) 42%, rgba(99, 102, 241, 0.07) 83%);
-    
-    @media (width >= 768px) {
-        flex-direction: row;
-    }
-}
-.hero .container{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-.hero h1 span{
-    display: block;
-    font-size: 56px;
-    font-weight: 800;
-}
-.hero h1{
-    margin-bottom: 10px;
-}
-.hero .h1-first{
-    display: block;
-    line-height: 1.1;
-}
-.hero .hero-left{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    justify-content: center;
-    max-width: 500px;
-}
-.hero .hero-left p{
-    font-size: 18px;
-    color: var(--color-body-text);
-}
-.hero .hero-left .next-p{
-    margin-bottom: 30px;
-} */

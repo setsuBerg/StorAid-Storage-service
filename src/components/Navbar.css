@@ -15,7 +15,7 @@
     gap: 12px;
 }
 
-.topbar .contactitems .icon-telephone{
+.topbar .contactitems .icon-telephone {
     margin-left: 50px;
 }
 .topbar .contactitems .telephonennumber {
@@ -47,27 +47,23 @@
     gap: 1rem;
     color: var(--color-secondary);
     font-size: 18px;
-}
-.navbar nav {
     gap: 1.8rem;
-}
-.navbar .yellow {
-    color: var(--color-accent);
 }
 .navbar .btn {
     min-width: auto;
-    height: 45px;
+    height: 3.3rem;
     color: var(--color-secondary);
     border-radius: 8px;
     border: 1px solid transparent;
-    padding: 0.6em 1.2em;
-    font-size: 1em;
+    padding: 0.6rem 2rem;
+    font-size: 1rem;
     font-weight: 500;
     font-family: inherit;
     background-color: var(--color-accent);
     cursor: pointer;
     transition: border-color 0.5s;
     margin-right: 2rem;
+    margin-bottom: .2rem;
     
 }
 .navbar .btn:hover {
@@ -76,27 +72,9 @@
 }
 .navbar .nav-link[aria-current="page"]{
     color: var(--color-accent);
-    font-weight: 500;
+    font-weight: 700;
 }
 .navbar .nav-link:hover {
     color: var(--color-accent);
     font-weight: 500;
 }
-
-
-/* @media (min-width >= 390px) {
-    max-width: 340px;
-    height: 47px; 
-}
-@media (min-width >= 7680px) {
-    max-width: 720px;
-    height: 47px; 
-}
-@media (min-width >= 1280px) {
-    max-width: 1200px;
-    height: 47px; 
-}
-@media (min-width >= 1920px) {
-    max-width: 1900px;
-    height: 47px; 
-} */

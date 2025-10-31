@@ -46,11 +46,11 @@ const AboutUsSection = () => {
             <p className='p-text block'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie nisl sed dui <span className='p-text block'>lacinia gravida. Nulla quis nulla leo. Mauris ac blandit nisi, non sodales augue.</span>Phasellus eget elit gravida.</p>
           </div>
           <div className='aboutus-boxes'>
-            <div className='vision-box border-2 border-[var(--color-accent)] rounded-md'>
+            <div className='box border-2 border-[var(--color-light)] rounded-md'>
               <h3 className='box-h3 font-semibold'>Vision</h3>
               <p className='boxes-p'>Sed ut perspiciatis unde omnis iste<span className='block'>natus error sit voluptatem accusan</span>tium doloremque laudantium.</p>
             </div>
-            <div className='mission-box border-2 border-[var(--color-accent)] rounded-md'>
+            <div className='box border-2 border-[var(--color-light)] rounded-md'>
               <h3 className='box-h3 font-semibold'>Mission</h3>
               <p className='boxes-p'>Sed ut perspiciatis unde omnis iste<span className='block'>natus error sit voluptatem accusan</span>tium doloremque laudantium.</p>
             </div>

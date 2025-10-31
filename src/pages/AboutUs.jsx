@@ -3,6 +3,7 @@ import AboutUsSection from '../components/AboutUsSection'
 import Brands from '../components/Brands'
 import Testimonials from '../components/Testimonials'
 import WhyChooseUs from '../components/WhyChooseUs'
+import Subscribe from '../components/Subscribe'
 
 // import Breadcrumb from '../components/Breadcrumb'
 
@@ -15,7 +16,7 @@ const AboutUs = () => {
       <Brands />
       <Testimonials />
       <WhyChooseUs />
-      
+      <Subscribe />
     </>
     
   )
