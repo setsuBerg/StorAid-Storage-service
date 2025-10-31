@@ -25,11 +25,10 @@ const Navbar = () => {
                         <span>contact@domain.com</span>
                     </div>
                     <div className='toplogo'>
-
-                            <Link className='facebook' to="/"><img src={Facebook} /></Link>
-                            <Link className='humble' to="/"><img src={Humble} /></Link>
-                            <Link className='instagram' to="/"><img src={Instagram} /></Link>
-                            <Link className='youtube' to="/"><img src={Youtube} /></Link>
+                        <Link className='facebook' to="/"><img src={Facebook} /></Link>
+                        <Link className='humble' to="/"><img src={Humble} /></Link>
+                        <Link className='instagram' to="/"><img src={Instagram} /></Link>
+                        <Link className='youtube' to="/"><img src={Youtube} /></Link>
                     </div>
                 </div>
 

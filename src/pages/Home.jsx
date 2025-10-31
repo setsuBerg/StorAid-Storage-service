@@ -9,6 +9,7 @@ import WhyChooseUs from '../components/WhyChooseUs'
 import PricingPlan from '../components/PricingPlan'
 import LookingForSecure from '../components/LookingForSecure'
 import LatestBlogandNews from '../components/LatestBlogandNews'
+import Subscribe from '../components/Subscribe'
 
 
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
       <PricingPlan />
       <LookingForSecure />
       <LatestBlogandNews />
+      <Subscribe />
     </>
   )
 }
