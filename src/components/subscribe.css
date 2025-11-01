@@ -1,4 +1,107 @@
 .subscribe {
     background-color: var(--color-light2);
     color: var(--color-secondary);
+    width: 100%;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 4rem 24rem;
+
+        .subscribe-title {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1rem;
+
+            .maintext {
+                font-size: 3rem;
+                font-family: var(--font-secondary);
+            }
+
+            .description {
+                font-family: var(--font-primary);
+                font-size: 1rem
+            }
+        }
+
+        .form-group {
+            display: flex;
+            justify-content: flex-start; 
+            align-items: center;
+            gap: 1rem;
+
+            form {
+                display: flex;
+                align-items: center;
+                gap: .5rem;
+            }
+
+            .field {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                margin-top: 1.2rem;
+                position: relative;
+
+                .error-text {
+                color: red;
+                min-height: 1rem;
+                font-size: .9rem;
+                }
+
+                .invalid-input {
+                    color: red;
+                    font-size: .9rem;
+                    display: none;
+                    margin-top: .5rem;
+                }
+
+                .error-text:empty {
+                    visibility: hidden;
+                }
+            }
+
+            .email {
+                font-family: var(--font-primary);
+                font-size: 1rem;
+                width: 30rem;
+                border: 2px solid var(--color-accent);
+                border-color: var(--color-accent);
+                padding: 1rem 2rem;
+                color: var(--color-secondary);  
+            }
+            .email::placeholder {
+                color: var(--color-accent);
+            }
+            .email:focus:placeholder-shown {
+
+                border-color: var(--color-secondary);
+            }
+            .email:not(:placeholder-shown):valid {
+                color: var(--color-secondary);
+                border-color: var(--color-accent);
+            }
+            .email:required:invalid:not(:placeholder-shown) {
+                border-color: red;
+            }
+            
+            
+            .submit {
+                background-color: var(--color-accent);
+                border-radius: .2rem;
+                padding: 1rem 1.5rem;
+                font-weight: 500;
+
+                &:hover {
+                    background-color: var(--color-secondary);
+                    color: #fff;
+                }
+            }
+        }
+
+    }
 }
+
+
