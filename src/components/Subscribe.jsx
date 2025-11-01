@@ -13,7 +13,7 @@ const Subscribe = () => {
         setFormData({...formData, [name]: value})
 
         if (value.trim() === '') {
-        setErrors(prevErrors => ({...prevErrors,[name]: 'This ${name} field is required.'}))
+        setErrors(prevErrors => ({...prevErrors,[name]: `This ${name} field is required.`}))
         } else {
             setErrors(prevErrors => ({...prevErrors,[name]: '' }))
         }
@@ -49,16 +49,15 @@ const Subscribe = () => {
         }
     }
 
-    if(submitted){
-        return(
-            <div className='informationreaction'>
-            <h1>Thank you your subscription!</h1>
-            <p>We will get back to you as soon as we can</p>
-            <button className='btn-info' onClick={handleOk}>Ok</button>
-            </div>
-        )
-    }
-
+    // if(submitted){
+    //     return(
+    //         <div className='informationreaction'>
+    //         <h1>Thank you your subscription!</h1>
+    //         <p>We will get back to you as soon as we can</p>
+    //         <button className='btn-info' onClick={handleOk}>Ok</button>
+    //         </div>
+    //     )
+    // }
 
     return (
         <section className='subscribe'>
@@ -70,14 +69,16 @@ const Subscribe = () => {
 
                 <div className='form-group'>
                     <form onSubmit={handleSubmit} noValidate>
-                        <input className='email' type='email' name='email' value={formData.email} onChange={handleChange} required placeholder='Enter your email' aria-label='email' />
-                        <span>{errors.email && errors.email}</span>
+                        <div className='field'>
+                            <input className='email' type='email' name='email' value={formData.email} onChange={handleChange} required placeholder='Enter your email' aria-label='email' />
+                            <span className='error-text'>{errors.email && errors.email}</span>
+                         </div>
                         <button className='submit' type='submit'>Submit</button>
                     </form>
                 </div>
             </div>
         </section>
     )
-} //Declaration or statement expected.????
+}
 
 export default Subscribe
