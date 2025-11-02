@@ -71,6 +71,7 @@ const Subscribe = () => {
                     <form onSubmit={handleSubmit} noValidate>
                         <div className='field'>
                             <input className='email' type='email' name='email' value={formData.email} onChange={handleChange} required placeholder='Enter your email' aria-label='email' />
+                            <span className='asterisk' aria-hidden>*</span>
                             <span className='error-text'>{errors.email && errors.email}</span>
                          </div>
                         <button className='submit' type='submit'>Submit</button>
