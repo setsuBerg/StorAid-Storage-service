@@ -28,7 +28,7 @@
 
         .form-group {
             display: flex;
-            justify-content: flex-start; 
+            justify-content: flex-start;
             align-items: center;
             gap: 1rem;
 
@@ -45,10 +45,21 @@
                 margin-top: 1.2rem;
                 position: relative;
 
+                .asterisk {
+                    position: absolute;
+                    color: red;
+                    top: 20%;
+                    left: 33%;
+                }
+
+                &>.email:not(:placeholder-shown)+.asterisk {
+                    display: none;
+                }
+
                 .error-text {
-                color: red;
-                min-height: 1rem;
-                font-size: .9rem;
+                    color: red;
+                    min-height: 1rem;
+                    font-size: .9rem;
                 }
 
                 .invalid-input {
@@ -70,38 +81,40 @@
                 border: 2px solid var(--color-accent);
                 border-color: var(--color-accent);
                 padding: 1rem 2rem;
-                color: var(--color-secondary);  
+                color: var(--color-secondary);
             }
+
             .email::placeholder {
                 color: var(--color-accent);
             }
-            .email:focus:placeholder-shown {
 
-                border-color: var(--color-secondary);
-            }
-            .email:not(:placeholder-shown):valid {
-                color: var(--color-secondary);
-                border-color: var(--color-accent);
-            }
-            .email:required:invalid:not(:placeholder-shown) {
-                border-color: red;
-            }
-            
-            
-            .submit {
-                background-color: var(--color-accent);
-                border-radius: .2rem;
-                padding: 1rem 1.5rem;
-                font-weight: 500;
-
-                &:hover {
-                    background-color: var(--color-secondary);
-                    color: #fff;
-                }
-            }
         }
 
+        .email:focus:placeholder-shown {
+
+            border-color: var(--color-secondary);
+        }
+
+        .email:not(:placeholder-shown):valid {
+            color: var(--color-secondary);
+            border-color: var(--color-accent);
+        }
+
+        .email:required:invalid:not(:placeholder-shown) {
+            border-color: red;
+        }
+
+
+        .submit {
+            background-color: var(--color-accent);
+            border-radius: .2rem;
+            padding: 1rem 1.5rem;
+            font-weight: 500;
+
+            &:hover {
+                background-color: var(--color-secondary);
+                color: #fff;
+            }
+        }
     }
 }
-
-

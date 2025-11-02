@@ -1,0 +1,32 @@
+.footer {
+    background-color: var(--color-secondary);
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .copyright {
+            font-size: 1rem;
+            font-family: var(--font-family);
+            text-align: left;
+
+            .credit {
+                text-align: center;
+            }
+        }
+
+        .fotter-items {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            font-family: var(--font-family);
+
+            .footer-item {
+                display: flex;
+                gap: .6rem;
+            }
+        }
+    }
+}
