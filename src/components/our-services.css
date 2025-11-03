@@ -5,38 +5,43 @@
         width: 100%;
         max-width: 1400px;
         display: grid;
-        gap: 2rem;
-        grid-template-columns: 1fr .8fr 1fr;
-        grid-auto-rows: auto;
-        align-items: start;
-
+        gap: 1rem;
+        
         .services-intro {
-            grid-column: 1 / -1;
-            font-family: var(--font-secondary);
-            padding: .2rem;
-            margin: 2rem 6rem;
+            display: flex;
+            flex-direction: column;
+            line-height: normal;
             
             .services-title {
                 font-size: 1.5rem;
                 color: var(--color-accent);
-                margin: 0 17rem;
+                margin: 2rem 0 0 18rem;
+
             }
             .services-maintext {
-                display: flex;
-                justify-content: space-between;
-                align-items: flex-start; 
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                align-items: center;
 
                 .services-headline {
                     font-size: 3.2rem;
-                    margin-left: 17rem;
+                    margin: .5rem 5rem 1rem 0;
+                    margin-left: auto;
                 }
                 .service-description {
                     font-size: 1rem;
                     line-height: 1.5rem;
-                    margin: .6rem 12rem;
+                    margin: .6rem 0;
                     font-family: var(--font-family);
                 }
             }
+        }
+        .service-items{
+            display: grid;
+            grid-template-columns: 1fr .8fr 1fr;
+            grid-auto-rows: auto;
+            align-items: start;
+            gap: 2rem;
         }
         .service-boxes {
             display: grid;
@@ -46,8 +51,10 @@
                 border: 2px solid var(--color-light);
                 border-radius: .5rem;
                 padding: 2.1rem;
+                
                 .service-boxtitle {
                     padding: .1rem .1rem;
+                    line-height: 1.5rem;
                     font-size: 1.4rem;
                 }
                 &:hover {

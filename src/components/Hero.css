@@ -3,7 +3,7 @@
     background: linear-gradient(180deg,rgba(44, 64, 56, 1) 0%, rgba(46, 79, 67, 1) 20%, rgba(57, 92, 79, 1) 100%);
 
     width: 100%;
-    height: 74vh;
+    height: 76vh;
     
 
     .container {
@@ -11,26 +11,10 @@
     justify-content: center;
     align-items: center;
     gap: 2.7rem;
-    height: 47rem;
+    height: 45rem;
     min-width: 100%;
     margin: 0 auto;
     padding-inline: 10px;
-
-    @media (width > 768px) {
-    max-width: 744px;
-    }
-    @media (width > 992px) {
-    max-width: 960px;
-    }
-    @media (width > 1200px) {
-    max-width: 1140px;
-    }
-    @media (width > 1400px) {
-    max-width: 1320px;
-    }
-    @media (width > 1920px) {
-    max-width: 1900px;
-    }
     }
 
     .main-text{
@@ -66,6 +50,6 @@
         padding: 5rem 1rem 0 2rem;
         display: flex;
         align-items: flex-end;
-        height: 66vh;
+        height: 73vh;
     }
 }
