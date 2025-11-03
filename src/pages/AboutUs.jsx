@@ -6,12 +6,12 @@ import WhyChooseUs from '../components/WhyChooseUs'
 import Subscribe from '../components/Subscribe'
 
 import Breadcrumb from '../components/Breadcrumb'
+import PageHero from '../components/PageHero'
 
 const AboutUs = () => {
   return (
     <>
-    <div>AboutUs</div>
-
+      <PageHero title='About Us' />
       <Breadcrumb />
     
       <AboutUsSection />
