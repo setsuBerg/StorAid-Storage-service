@@ -1,6 +1,6 @@
 import React from 'react'
-import Hero from '../components/Hero'
-import AboutUs from '../pages/AboutUs'
+
+import Hero from '../components/Hero' 
 import AboutUsSection from '../components/AboutUsSection'
 import Brands from '../components/Brands'
 import OurServices from '../components/OurServices'
