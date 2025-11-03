@@ -5,12 +5,14 @@ import Testimonials from '../components/Testimonials'
 import WhyChooseUs from '../components/WhyChooseUs'
 import Subscribe from '../components/Subscribe'
 
-// import Breadcrumb from '../components/Breadcrumb'
+import Breadcrumb from '../components/Breadcrumb'
 
 const AboutUs = () => {
   return (
     <>
     <div>AboutUs</div>
+
+      <Breadcrumb />
     
       <AboutUsSection />
       <Brands />
