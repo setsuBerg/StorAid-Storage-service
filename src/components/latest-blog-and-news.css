@@ -1,6 +1,6 @@
 .latest-blog-and-news {
     color: var(--color-secondary);
-    margin: 5rem;
+    
 
     .container {
         display: flex;
@@ -8,6 +8,7 @@
         align-items: center;
         flex-direction: column;
         gap: .5rem;
+        margin: 5rem 5rem 5rem 1rem;
 
         .latest-blog-header {
             text-align: justify;
@@ -25,7 +26,7 @@
                 gap: 2rem;
                 
                 .headline {
-                    font-size: 3.2rem;
+                    font-size: 3.1rem;
                     font-family: var(--font-secondary);
                 }
                 .subhead {
