@@ -6,6 +6,7 @@ import LookingForSecure from '../components/LookingForSecure'
 import Subscribe from '../components/Subscribe'
 import Breadcrumb from '../components/Breadcrumb'
 import PageHero from '../components/PageHero'
+import Faqs from '../components/Faqs'
 
 const Services = () => {
   return (
@@ -15,6 +16,7 @@ const Services = () => {
       
       <OurServices />
       <Testimonials />
+      <Faqs />
       <LookingForSecure />
       <Subscribe />
     </>
