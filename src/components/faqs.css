@@ -1,0 +1,30 @@
+.faqs {
+    background-color: rgb(53, 76, 138);
+
+    .faqs-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 3rem 3rem 3rem 0; 
+        
+        .faqs-header {
+            display: flex;
+            flex-direction: column;
+            gap: .4rem;
+
+            .faqs-title {
+                font-size: 1.4rem;
+                font-family: var(--font-secondary);
+                color: var(--color-accent);                
+            }
+            .headline {
+                font-size: 3.2rem;
+                font-family: var(--font-secondary);
+            }
+            .header-description {
+                font-size: 1rem;
+                font-family: var(--font-family);
+            }
+        }
+    }
+}
