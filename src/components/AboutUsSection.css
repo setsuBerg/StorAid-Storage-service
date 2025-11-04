@@ -1,15 +1,16 @@
 .aboutus-section {
     padding-inline: 0;
     padding-block: 1rem;
-    margin-left: 11rem;
 
     .container {
         max-width: 1300px;
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         margin-block: 3rem;
         width: 100%;
         align-items: start;
+        min-width: 0;
+        gap: 1.5rem;
     }
 
     .aboutus-items {
@@ -18,13 +19,15 @@
         display: flex;
         justify-content: center;
         flex: 1;
-        width: 100%;
+        
 
         .aboutus-img img {
             width: 100%;
             position: relative;
             z-index: 0;
             display: block;
+            display: flex;
+            height: 48vh;
         }
 
         .aboutus-box {
@@ -33,11 +36,11 @@
                 bottom: -5rem;
                 border-radius: 1rem;
                 z-index: 2;
-                width: 66%;
+                width: 87%;
                 display: flex;
-                padding: .8rem 2rem .2rem 1rem;
+                padding: 1rem 2rem .2rem 1rem;
                 justify-content: space-around;
-                left: 17%;
+                left: 7%;
                 
                 .box-text {
                     text-align: center;
@@ -59,8 +62,6 @@
     }
 
     .aboutus-providing {
-        width: 100%;
-        flex: 1;
         display: flex;
         justify-content: center;
         align-items: flex-start;
@@ -102,8 +103,8 @@
 
         .btn-infor {
             display: flex;
-            justify-content: space-between;
-            align-items: flex-end;
+            justify-content: flex-start;
+            align-items: flex-start;
             gap: 2.5rem;
             margin-top: 2rem;
 
