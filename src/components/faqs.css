@@ -1,16 +1,19 @@
 .faqs {
-    background-color: rgb(53, 76, 138);
+    height: 62vh;
+    color: var(--color-secondary);
 
     .faqs-container {
         display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding: 3rem 3rem 3rem 0; 
+        justify-content: center;
+        align-items: flex-start;
+        gap: 1rem;
+        
         
         .faqs-header {
             display: flex;
             flex-direction: column;
-            gap: .4rem;
+            gap: .5rem;
+            padding: 6rem 4rem 6rem;
 
             .faqs-title {
                 font-size: 1.4rem;
@@ -24,6 +27,47 @@
             .header-description {
                 font-size: 1rem;
                 font-family: var(--font-family);
+                line-height: 1.7rem;
+            }
+        }
+
+        .accordion-wrapper {
+            margin-top: 5rem;
+
+            .faqs-accordion{
+                width: 40rem;
+                margin: 1.4rem 3rem;
+
+                
+                .question {
+                    background-color: var(--color-light);
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 1rem;
+                    border-radius: .4rem;
+                    
+                    }
+
+                    .description {
+                        overflow: hidden;
+                        line-height: 1.5rem;
+                        padding: 1rem 0 0 1rem;
+                        text-align: left;
+                        width: 36rem;
+                        display: block;
+                        margin: 0 auto;
+                    }
+                    .icon-up .icon-down {
+                        flex-shrink: 0;
+
+                }
+
+                &.open .question {
+                    background-color: var(--color-accent);
+                    color: var(--color-primary);
+                }
+
             }
         }
     }
