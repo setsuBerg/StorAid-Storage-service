@@ -8,7 +8,8 @@
         align-items: center;
         flex-direction: column;
         gap: .5rem;
-        margin: 5rem 5rem 5rem 1rem;
+        width: 100%;
+        margin: 5rem auto 4rem;
 
         .latest-blog-header {
             text-align: justify;
@@ -50,7 +51,7 @@
                 background-color: var(--color-secondary);
                 padding: 2rem;
                 min-width: 0;
-                flex: 0 0 22%;
+                flex: 0 0 28%;
 
                 .blog-img {
                     border-radius: .5rem;
