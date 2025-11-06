@@ -3,10 +3,10 @@
     padding-block: 1rem;
 
     .container {
-        max-width: 1300px;
+        max-width: 1400px;
         display: flex;
         justify-content: flex-start;
-        margin-block: 3rem;
+        margin: 3rem 0 5rem;
         width: 100%;
         align-items: start;
         min-width: 0;
