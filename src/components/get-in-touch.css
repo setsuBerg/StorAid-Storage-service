@@ -10,7 +10,6 @@
         margin: 3rem auto;
         align-items: start;
 
-
         .get-header  {
             display: grid;
             justify-content: center; 
@@ -32,13 +31,17 @@
                 line-height: 1.5rem;
                 margin-bottom: 1.5rem;
             }
-        
         }
 
         .getform-body {
             background-color: var(--color-light2);
             width: 40rem;
             border-radius: .5rem;
+
+            input::placeholder, textarea::placeholder {
+                color: var(--color-accent);
+                
+            }
 
             .getform-group {
                 display: flex;
@@ -50,9 +53,8 @@
                 gap: 1rem;
 
                 #name {
-                    width: 33rem;
+                    width: 100%;
                     border: 1px solid var(--color-accent);
-                    color: var(--color-secondary);
                     padding: .5rem;
 
                 }
@@ -64,41 +66,40 @@
                     display: grid;
                     grid-template-columns: 1fr 1fr;
                     grid-template-rows: auto auto;
-                    row-gap: 1rem;
                     gap: 1rem;
-                    
-                    
-                    #email {
-                        width: 16rem;
-                        border: 1px solid var(--color-accent);
-                        color: var(--color-secondary);
-                        padding: .5rem;
-                        grid-column: 1;
-                        grid-row: 2;
-                    }
 
-                    #telephone {
-                        width: 16rem;
-                        border: 1px solid var(--color-accent);
-                        color: var(--color-secondary);
-                        padding: .5rem;
-                        grid-column: 2;
-                        grid-row: 2;
-                        
+                    .email-side {
+
+                        #email {
+                            width: 100%;
+                            border: 1px solid var(--color-accent);
+                            padding: .5rem;
+                        }
+                    }
+                    .phoneNumber-side {
+
+                        #phoneNumber {
+                            width: 100%;
+                            border: 1px solid var(--color-accent);
+                            padding: .5rem;
+                        }
                     }
                 }
+                .validation-error {
+                    color: red;
+                    font-size: .9rem;
+                }
             }
+
             #subject {
-                width: 33rem;
+                width: 100%;
                 border: 1px solid var(--color-accent);
-                color: var(--color-secondary);
                 padding: .5rem;
 
             }
             #comments {
-                width: 33rem;
+                width: 100%;
                 border: 1px solid var(--color-accent);
-                color: var(--color-secondary);
                 padding: .5rem;
                 padding-bottom: 5rem;
 
@@ -120,6 +121,20 @@
                     background-color: var(--color-secondary);
                     color: #fff;
                 }
+            }
+
+            input:focus, textarea:focus {
+                outline: 0;
+                border-color: var(--color-secondary) !important;
+            }
+            
+            input:focus:not(:placeholder-shown), textarea:focus:not(:placeholder-shown) {
+                border-color: var(--color-accent) !important;
+            }
+
+            [aria-invalid='true']:not(:focus) {
+                border-color: red !important;
+                color: red;
             }
         }
     }
