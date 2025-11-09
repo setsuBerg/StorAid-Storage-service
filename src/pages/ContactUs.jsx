@@ -6,6 +6,7 @@ import Breadcrumb from '../components/Breadcrumb'
 import PageHero from '../components/PageHero'
 import Faqs from '../components/Faqs'
 import GetInTouch from '../components/GetInTouch'
+import FindUsOn from '../components/FindUsOn'
 
 const ContactUs = () => {
   return (
@@ -13,6 +14,7 @@ const ContactUs = () => {
     <PageHero title='Contact Us' />
     <Breadcrumb />
     <GetInTouch />
+    <FindUsOn />
 
     <Faqs />
     <Subscribe />
