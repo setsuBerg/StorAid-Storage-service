@@ -14,10 +14,11 @@ const LatestBlogandNews = () => {
         const res = await fetch(`${baseUrl}/api/blogs`);
         const data = await res.json();
         setLatestBlogs(data);
-    }
+    };
     useEffect(() => {
         getLatestBlogandNews();
-    }, [])
+    }, []);
+
 
   return (
     <section className='latest-blog-and-news'>
@@ -34,7 +35,8 @@ const LatestBlogandNews = () => {
                 {latestBlogs.slice(0,3).map(item => (
                     <div key={item.id} className='blogs-item'>
                         <img className='blog-img' src={item.imageUrl} alt={item.title} />
-                        <h6 className='created'><img src={CalendarIcon} className='calendar-icon' alt='calendar-icon' />{item.created}</h6>
+                        <h6 className='created'><img src={CalendarIcon} className='calendar-icon' alt='calendar-icon' />
+                        {new Intl.DateTimeFormat('en-US', {year:'numeric', month:'long', day:'numeric', timeZone:'UTC'}).format(new Date(item.created))}</h6>
                         <h3 className='title font-semibold'>{item.title}</h3>
                         <h5 className='description'>{item.description}</h5>
 
