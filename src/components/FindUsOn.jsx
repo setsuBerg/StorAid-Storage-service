@@ -1,6 +1,6 @@
 import React from 'react'
 
-import FindHuman from '../assets/images/find-human.svg'
+import FindHuman from '../assets/images/find-human.png'
 import FindTele from '../assets/images/find-tele-icon.svg'
 import FindEmail from '../assets/images/find-email-icon.svg'
 import FindLocation from '../assets/images/find-location-icon.svg'

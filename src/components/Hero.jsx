@@ -1,7 +1,5 @@
 import React from 'react'
-import Human from '../assets/images/human.svg'
-
-import { Link } from 'react-router-dom' 
+import Human from '../assets/images/human.png'
 
 import './Hero.css'
 
@@ -21,7 +19,7 @@ export default function Hero () {
         </div>
 
         <div className='hero-img'>
-          <Link className='hero-src' to="/"><img src={Human} /></Link>
+          <img className='hero-src' src={Human} alt='Man carrying storage box' />
         </div>
       </div>
     </section>

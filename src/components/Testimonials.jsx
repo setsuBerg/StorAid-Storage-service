@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import TestimonialsBg from '../assets/images/testimonials-bg.svg'
 import TestimonialIcon from '../assets/images/testimonial-icon.svg'
 
-import { Link } from 'react-router-dom' 
 import './testimonials.css'
 import StarRating from '../components/StarRating'
 
@@ -28,7 +27,7 @@ const Testimonials = () => {
 
           {/* ------------  testimonials bg  ------------------ */}
         <div className='testimonials-img'>
-            <Link className='testimonials-bg' to="/"><img src={TestimonialsBg} /></Link>
+            <img className='testimonials-bg' src={TestimonialsBg} alt='' />
         </div>
 
           {/* ------------   testimonials texts  ------------------ */}
@@ -57,7 +56,7 @@ const Testimonials = () => {
                 <h6 className='name'>{item.name}</h6>
                 <p className='role'>{item.companyName}</p>
                 </div>
-                <Link className='testimonial-icon' to="/"><img src={TestimonialIcon} /></Link>
+                <img className='testimonial-icon' src={TestimonialIcon} alt='' />
               </div>
             </div>
           ))}

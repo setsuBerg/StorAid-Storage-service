@@ -1,8 +1,6 @@
 import React from 'react'
 
-import Services from '../assets/images/services-img.svg'
-
-import { Link } from 'react-router-dom' 
+import Services from '../assets/images/services-img.jpg'
 
 import './our-services.css'
 
@@ -22,7 +20,7 @@ const OurServices = () => {
             </div>
 
             {/* ------------- down side ------------------ */}
-            <div className='service-items'>            
+            <div className='service-items'>        
                 <div className='service-boxes left'>
                     <div className='service-box1'> 
                         <h3 className='service-boxtitle font-semibold'>Diverse Unit Sizes</h3>
@@ -35,7 +33,7 @@ const OurServices = () => {
                 </div>
 
                 <div className='service-img'>
-                    <Link className='services' to="/"><img src={Services} /></Link>
+                    <img className='services' src={Services} alt='Storage box' />
                 </div>
 
                 <div className='service-boxes right'>

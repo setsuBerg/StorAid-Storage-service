@@ -15,7 +15,7 @@
             .services-title {
                 font-size: 1.5rem;
                 color: var(--color-accent);
-                margin: 3rem 0 0 3rem;
+                margin: 2rem 0 0 1.8rem;
 
             }
             .services-maintext {
@@ -24,7 +24,7 @@
                 align-items: center;
 
                 .services-headline {
-                    font-size: 3.1rem;
+                    font-size: 3.2rem;
                     margin: .5rem 6rem 1rem;
                     margin-left: auto;
                 }
@@ -45,12 +45,12 @@
         }
         .service-boxes {
             display: grid;
-            gap: 1rem;
+            gap: 1.5rem;
             
             .service-box1, .service-box2, .service-box3, .service-box4{
                 border: 2px solid var(--color-light);
                 border-radius: .5rem;
-                padding: 1.5rem;
+                padding: 2rem;
                 
                 .service-boxtitle {
                     padding: .1rem .1rem;

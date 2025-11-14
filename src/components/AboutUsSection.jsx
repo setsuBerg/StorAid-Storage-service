@@ -1,8 +1,6 @@
 import React from 'react'
-import AboutImg from '../assets/images/aboutus-section.svg'
+import AboutImg from '../assets/images/aboutus-section.jpg'
 import AboutIcon from '../assets/images/telephone-icon.svg'
-
-import { Link } from 'react-router-dom' 
 
 import './AboutUsSection.css'
 
@@ -17,7 +15,7 @@ const AboutUsSection = () => {
         <div className='aboutus-items'>
 
           <div className='aboutus-img'>
-            <Link className='aboutus-section-img' to="/"><img src={AboutImg} /></Link>
+            <img className='aboutus-section-img' src={AboutImg} alt='Woman carrying moving boxes' />
           </div>
 
           <div className='aboutus-box'>
@@ -59,7 +57,7 @@ const AboutUsSection = () => {
             <button className="btn text-[var(--color-secondary)] bg-[var(--color-accent)] font-semibold rounded-lg focus:outline-none focus:ring-2 ">Discover More</button>
 
             <div className='telephone-icon-img'>
-              <Link className='about-src' to="/"><img src={AboutIcon} /></Link>
+              <img className='about-src' src={AboutIcon} alt='Telephone icon' />
             </div>
             <div className='about-infor'>
               <h3 className='more-infor text-[var(--color-secondary)] font-semibold'>More Information</h3>
