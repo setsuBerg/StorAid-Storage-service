@@ -34,7 +34,7 @@ Pages:
 - Git & GitHub  
 - React Router
 
-##Assignment requirements
+## Assignment requirements
 All sections are separare components.
 Pages "Home, About Us, Services and Contact Us" have working navigation.
 "Testimonials, Latest Blogs and FAQs" are loaded from the web API.
