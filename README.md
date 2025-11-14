@@ -24,7 +24,7 @@ Pages:
 - Services
   - FAQs　(Accordion, API)
 - Contact Us
-  - Get in Touch　(Validetion)
+  - Get in Touch　(Validation)
 - Find Us On
 
 ## Tech Stack
@@ -35,7 +35,7 @@ Pages:
 - React Router
 
 ## Assignment requirements
-All sections are separare components.
+All sections are separate components.
 Pages "Home, About Us, Services and Contact Us" have working navigation.
 "Testimonials, Latest Blogs and FAQs" are loaded from the web API.
 FAQ accordion works.
