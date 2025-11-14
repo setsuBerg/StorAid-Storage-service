@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import getImg from '../assets/images/get-img.svg'
+import getImg from '../assets/images/get-img.jpg'
 import '../components/get-in-touch.css'
 
 const GetInTouch = () => {
@@ -66,7 +66,7 @@ const GetInTouch = () => {
                     <h3 className='get-title font-bold'>Get in Touch</h3>
                     <h2 className='get-headline font-bold'>Get Personalized Assistance<span className='block'>– Contact Us</span></h2>
                     <h5 className='get-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec<span className='block'> ullamcorper mattis, pulvinar dapibus leo</span></h5>
-                    <img className='get-img' src={getImg} alt="" />
+                    <img className='get-img' src={getImg} alt="Customer support" />
                 </div>
 
                 <form className='getform-body' onSubmit={handleSubmit} noValidate>

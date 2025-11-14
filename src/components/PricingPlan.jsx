@@ -1,7 +1,6 @@
 import React from 'react'
 import DollarIcon from '../assets/images/dollar-icon.svg'
 
-import { Link } from 'react-router-dom' 
 import './pricingplan.css'
 
 const PricingPlan = () => {
@@ -21,7 +20,7 @@ const PricingPlan = () => {
                         <h4 className='card-title font-semibold'>Small Unit</h4>
                         <div className='card-upside'>
                             <div className='card-price'>
-                                <Link className='dollar-icon' to="/"><img src={DollarIcon} /></Link>
+                                <img className='dollar-icon' src={DollarIcon} alt='' />
                                 <h4 className='price'>50</h4>
                                 <h5 className='payments'>/month</h5>
                             </div>
@@ -50,7 +49,7 @@ const PricingPlan = () => {
                         <h4 className='card-title font-semibold'>Medium Unit</h4>
                         <div className='card-upside'>
                             <div className='card-price'>
-                                <Link className='dollar-icon' to="/"><img src={DollarIcon} /></Link>
+                                <img className='dollar-icon' src={DollarIcon} alt='' />
                                 <h4 className='price'>100</h4>
                                 <h5 className='payments'>/month</h5>
                             </div>
@@ -79,7 +78,7 @@ const PricingPlan = () => {
                         <h4 className='card-title font-semibold'>Large Unit</h4>
                         <div className='card-upside'>
                             <div className='card-price'>
-                                <Link className='dollar-icon' to="/"><img src={DollarIcon} /></Link>
+                                <img className='dollar-icon' src={DollarIcon} alt='' />
                                 <h4 className='price'>150</h4>
                                 <h5 className='payments'>/month</h5>
                             </div>
@@ -108,7 +107,7 @@ const PricingPlan = () => {
                         <h4 className='card-title font-semibold'>Executive Unit</h4>
                         <div className='card-upside'>
                             <div className='card-price'>
-                                <Link className='dollar-icon' to="/"><img src={DollarIcon} /></Link>
+                                <img className='dollar-icon' src={DollarIcon} alt='' />
                                 <h4 className='price'>200</h4>
                                 <h5 className='payments'>/month</h5>
                             </div>
