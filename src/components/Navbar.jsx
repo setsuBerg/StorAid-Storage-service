@@ -19,16 +19,16 @@ const Navbar = () => {
                 {/* first header */}
                 <div className='topbar'>
                     <div className='contactitems'>
-                        <Link className='icon-telephone' to="/"><img src={IconTelephone} /></Link>
+                        <img className='icon-telephone' src={IconTelephone} alt=''/>
                         <span className='telephonennumber'>+46 8 123 122 44</span>
-                        <Link className='icon-email' to="/"><img src={IconEmail} /></Link>
+                        <img className='icon-email' src={IconEmail} alt='' />
                         <span>contact@domain.com</span>
                     </div>
                     <div className='toplogo'>
-                        <a target='_blank' className='facebook'><img src={Facebook} /></a>
-                        <a target='_blank' className='humble'><img src={Humble} /></a>
-                        <a target='_blank' className='instagram'><img src={Instagram} /></a>
-                        <a target='_blank' className='youtube'><img src={Youtube} /></a>
+                        <a target='_blank' className='facebook' aria-label='Visit our Facebook page'><img src={Facebook} /></a>
+                        <a target='_blank' className='humble' aria-label='Visit our X page'><img src={Humble} /></a>
+                        <a target='_blank' className='instagram' aria-label='Visit our Instagram page'><img src={Instagram} /></a>
+                        <a target='_blank' className='youtube' aria-label='Visit our Youtube channel'><img src={Youtube} /></a>
                     </div>
                 </div>
 
@@ -37,7 +37,7 @@ const Navbar = () => {
                     <Link className="logo" to="/">
                         <img src={LogoType} />
                     </Link>
-                    <nav>
+                    <nav aria-label='Main-navigation'>
                         <NavLink className="nav-link" to="/">Home</NavLink>
                         <NavLink className="nav-link" to="/aboutus">About Us</NavLink>
                         <NavLink className="nav-link" to="/services">Services</NavLink>
